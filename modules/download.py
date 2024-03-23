@@ -14,7 +14,6 @@ from Crypto.Cipher import AES
 from Crypto.Util.Padding import unpad
 import subprocess
 
-class BunnyVideoDRM:
 headers = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:122.0) Gecko/20100101 Firefox/122.0',
     'Accept-Language': 'en-US,en;q=0.5',
